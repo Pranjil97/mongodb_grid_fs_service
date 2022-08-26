@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import gridfs
 
-class Mongogrid_operations():
+class Mongogrid():
 
     def __init__(self,connection_string) -> bool:
 

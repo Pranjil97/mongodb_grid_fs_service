@@ -1,8 +1,8 @@
 from flask import Flask,request, jsonify, make_response
-from mongo_grid_fs_operations import Mongogrid_operations
+from mongo_grid_fs_module import Mongogrid
 
 connection_string= "mongodb://localhost:27017"
-mongo=Mongogrid_operations(connection_string)
+mongo=Mongogrid(connection_string)
 
 app=Flask(__name__)
 
